@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 
 //    QLabel label("Hello Qt!");
 //    label.show();
-//    label.setAttribute(Qt::WA_DeleteOnClose);    // 这个不能使用，因为这个label是分配到栈上的////
+//    label.setAttribute(Qt::WA_DeleteOnClose);    // 这个不能使用，因为这个label是分配到栈上的//
 
     QWidget w;
     QLabel label("Hello Qt!");
